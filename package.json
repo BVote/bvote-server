@@ -1,5 +1,5 @@
 {
-  "name": "ravip-service",
+  "name": "bvote-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BVote/ravip-service.git"
+    "url": "git+https://github.com/BVote/bvote-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BVote/ravip-service/issues"
+    "url": "https://github.com/BVote/bvote-server/issues"
   },
-  "homepage": "https://github.com/BVote/ravip-service#readme",
+  "homepage": "https://github.com/BVote/bvote-server#readme",
   "dependencies": {
     "apollo-server-express": "^2.25.1",
     "bcrypt": "^5.0.1",
@@ -31,6 +31,7 @@
     "graphql-validation-complexity": "^0.4.2",
     "helmet": "^4.6.0",
     "http-proxy-middleware": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
     "lorem-ipsum": "^2.0.3",
     "md5": "^2.3.0",
     "mongoose": "^5.12.13",
