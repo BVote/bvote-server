@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 
-const userSchema = new mongoose.Schema(
+const citizenSchema = new mongoose.Schema(
     {
-        username: {
+        cid: {
             type: String,
             required: true,
             index: { unique: true }
@@ -25,5 +25,5 @@ const userSchema = new mongoose.Schema(
     }
 );
 
-const User = mongoose.model("User", userSchema);
-module.exports = User;
+const Citizen = mongoose.model("Citizen", citizenSchema);
+module.exports = Citizen;

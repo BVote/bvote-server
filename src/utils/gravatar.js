@@ -8,3 +8,4 @@ const gravatar = email => {
 };
 
 module.exports = gravatar;
+
