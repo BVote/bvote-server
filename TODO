@@ -5,3 +5,12 @@ Une requête sera faite vers ravip
 Si l'utilisateur ne peut pas voter, on lui dire affiche le message "vous ete monsieur toto, vous ne pouvez pas voter car..."
 Si l'utilisateur à l'age de voter, on lui dire de confirmer son identité en clicuant le lien qui lui est envoyé.
 On lui envoie un otp de
+
+
+$ curl -X POST https://textbelt.com/text \
+       --data-urlencode phone='5555555555' \
+       --data-urlencode message='Hello world' \
+       -d key=ca3da1c895ea314898a6d2feabb758668954bd0aVH0HDmtFobpQED9aaOThaWNTt
+
+{"success": true, "quotaRemaining": 40, "textId": 956929}
+

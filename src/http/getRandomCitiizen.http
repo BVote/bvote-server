@@ -1,0 +1,6 @@
+POST  http://localhost:4001/ravip
+content-type: application/json
+
+{
+    "query": "{getRandomCitizen{emails}}"
+}
